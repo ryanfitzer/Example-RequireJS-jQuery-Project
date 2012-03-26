@@ -1,3 +1,6 @@
+/*!
+ * Beta module
+ */
 define(
     
     [ 'jquery' ], 

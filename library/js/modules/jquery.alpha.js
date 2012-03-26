@@ -1,3 +1,6 @@
+/*!
+ * Alpha Module
+ */
 define(
     
     [ 'jquery' ],

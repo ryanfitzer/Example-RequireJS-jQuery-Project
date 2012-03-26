@@ -1,3 +1,6 @@
+/*!
+ * Home mediator
+ */
 define(
     
     [

@@ -1,3 +1,6 @@
+/*!
+ * Runtime configuration
+ */
 require.config({
     
     jQuery: '1.7.1', // Make sure we only get our version of jQuery (3rd parties may load their own)
