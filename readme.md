@@ -13,6 +13,8 @@ My aim for this example is to give those familiar with jQuery, but new to Requir
 * removes jQuery from the global scope once it's loaded
 * externalizes the runtime config so options can be stored in one place
 
+View a [live example][gh-pages].
+
 ## The Build Process
 
 ### Requirements
@@ -35,3 +37,4 @@ From your terminal, `cd` into the project's `library/js` directory and execute t
 [original]:https://github.com/jrburke/require-jquery
 [node]:http://nodejs.org/
 [npm]:https://github.com/isaacs/npm
+[gh-pages]:http://ryanfitzer.github.com/Example-RequireJS-jQuery-Project/
