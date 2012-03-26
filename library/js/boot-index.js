@@ -4,7 +4,7 @@
 require(
     
     {
-        priority: [ 'require-config' ]
+        priority: [ 'require-config' ] // Set paths and jQuery configuration before any other scripts are loaded
     },
     
     [ 'mediators/index' ],
