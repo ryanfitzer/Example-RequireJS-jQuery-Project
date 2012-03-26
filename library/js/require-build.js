@@ -1,5 +1,9 @@
 /*
- * Optimization options
+ * Build profile
+ * From your terminal, cd into the directory of this file and execute the following command:
+ * 
+ * r.js -o require-build.js
+ *
  */
 ({
     appDir: '../../',
