@@ -2,26 +2,28 @@
  * Build profile
  * From your terminal, cd into the directory of this file and execute the following command:
  * 
- * r.js -o require-profile.js
+ *  r.js -o require-profile.js
  *
  */
 ({
-    appDir: '../../',
-    
     baseUrl: 'library/js/',
+    
+    appDir: '../../',
     
     dir: '../../../requirejs-jquery-build',
     
     optimize: 'none',
     
+    mainConfigFile: 'require-config.js',
+    
+    fileExclusionRegExp: /^\.|node_modules/,
+    
     findNestedDependencies: true,
-    
-    mainConfigFile: 'config-require.js',
-    
+
     modules: [
-    
+        
         {
-            name: 'index'
+            name: 'home'
         }
     ]
 })
