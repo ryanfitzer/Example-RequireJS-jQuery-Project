@@ -1,27 +1,36 @@
-require( [ 'require-config' ], function() {
+require(
     
-    require(
+    {
+        paths: {
+            'jquery': 'modules/jquery'
+        },
+        
+        map: {
 
-        [   
-            'jquery',
-            'modules/logger',
-            'shims/jquery.alpha',
-            'shims/jquery.beta'
-        ],
-
-        function(
+            '*': {
+                'jquery': 'wrappers/jquery-config'
+            },
             
-            $,
-            logger
-            
-        ) {
-
-            logger( 'home.js' );
-            
-            console.log('\nhome factory arguments');
-            console.dir(arguments);
-            console.log('\n');
-
+            'wrappers/jquery-config': {
+                'jquery': 'jquery'
+            }
         }
-    );
-});
+    },
+
+    [   
+        'module',
+        'modules/logger',
+        'jquery'
+    ],
+
+    function(
+        
+        module,
+        logger,
+        $
+        
+    ) {
+
+        logger( 'home', arguments, module );
+    }
+);

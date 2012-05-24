@@ -2,8 +2,11 @@ define( function() {
     
     var log = document.getElementById( 'log' );
     
-    return function( message ) {
+    return function( id, args, module ) {
         
-        log.innerHTML += '<li><b>' + message + '</b> factory has been executed.</li>';
+        log.innerHTML += '<li><b>' + id + '</b> factory has executed.</li>';
+        console.log( '\n' + id );
+        console.dir( args );
+        console.dir( module );
     };
 });
