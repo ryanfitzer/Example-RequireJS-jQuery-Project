@@ -1,21 +1,21 @@
 require(
     
-    {
-        paths: {
-            'jquery': 'modules/jquery'
+{
+    paths: {
+        'jquery': 'modules/jquery'
+    },
+    
+    map: {
+
+        '*': {
+            'jquery': 'wrappers/jquery-config'
         },
         
-        map: {
-
-            '*': {
-                'jquery': 'wrappers/jquery-config'
-            },
-            
-            'wrappers/jquery-config': {
-                'jquery': 'jquery'
-            }
+        'wrappers/jquery-config': {
+            'jquery': 'jquery'
         }
-    },
+    }
+},
 
     [   
         'module',
