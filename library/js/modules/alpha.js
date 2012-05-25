@@ -12,15 +12,15 @@ define(
     
     ) {
     
-    logger( 'wrappers/jquery.alpha.js' );
+    logger( 'modules/alpha', arguments );
     
     $.Alpha = function( element, options ) {
 
         var defaults = {};
-        
+
         this.options = $.extend( {}, defaults, options || {} );
         this.element = $( element );
-        
+
         this.init();
     }
 
@@ -29,7 +29,7 @@ define(
         init: function() {
 
             var self = this;
-            
+
             // do something...
         }
     }
@@ -37,8 +37,8 @@ define(
     $.fn.alpha = function( options ) {
 
         return this.each( function() {
-            
+
             new $.Alpha( this, options );
         });
-    }
+    } 
 });

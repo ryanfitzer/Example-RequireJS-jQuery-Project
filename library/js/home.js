@@ -1,36 +1,20 @@
-require(
+require( [ 'require-config' ], function() {
     
-{
-    paths: {
-        'jquery': 'modules/jquery'
-    },
-    
-    map: {
-
-        '*': {
-            'jquery': 'wrappers/jquery-config'
-        },
+    require(
         
-        'wrappers/jquery-config': {
-            'jquery': 'jquery'
+        [   
+            'jquery',
+            'modules/logger',
+            'modules/alpha',
+            'modules/beta',
+        ],
+
+        function(
+            $,
+            logger
+        ) {
+            
+            logger( 'home', arguments );
         }
-    }
-},
-
-    [   
-        'module',
-        'modules/logger',
-        'jquery'
-    ],
-
-    function(
-        
-        module,
-        logger,
-        $
-        
-    ) {
-
-        logger( 'home', arguments, module );
-    }
-);
+    );
+});

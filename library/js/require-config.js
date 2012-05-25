@@ -1,19 +1,19 @@
-require.config({
+require.config({ 
+      
+    jQuery: '1.7.2',
     
-    jQuery: '1.7.1',
-    
-    // paths: {
-    //     'jquery': 'modules/jquery'
-    // },
+    paths: {
+        'jquery': 'modules/jquery'
+    },
     
     map: {
 
         '*': {
-            'jquery': 'wrappers/jquery-config'
-        }
+            'jquery': 'modules/adapters/jquery'
+        },
         
-        // , 'wrappers/jquery-config': {
-        //     'jquery': 'modules/jquery'
-        // }
-    } 
+        'modules/adapters/jquery': {
+            'jquery': 'jquery'
+        }
+    }
 });
