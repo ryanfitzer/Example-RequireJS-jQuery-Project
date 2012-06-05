@@ -2,6 +2,8 @@
 
 Based on the original [RequireJS + jQuery][original] example by James Burke, the author of [RequireJS][requirejs].
 
+Note: this version is not compatible with RequireJS 2.0. Support for 2.0 is being worked on in the [dev2.0 branch][dev2.0] and will be ready any minute now. I just need to do a little more testing with the r.js 2.0.
+
 ## About ##
 
 [AMD][amd] and [RequireJS][requirejs] enable a more modular approach to code organization. This approach can present a significant learning curve. Using jQuery in your project can complicate things further if you have multiple contributors and/or 3rd party scripts injecting their own versions of jQuery into the page.
@@ -32,6 +34,7 @@ From your terminal, `cd` into the project's `library/js` directory and execute t
 
 
 
+[dev2.0]:https://github.com/ryanfitzer/Example-RequireJS-jQuery-Project/tree/dev2.0
 [amd]:https://github.com/amdjs/amdjs-api/wiki/AMD
 [requirejs]:https://github.com/jrburke/requirejs
 [original]:https://github.com/jrburke/require-jquery
