@@ -11,9 +11,9 @@ Note: compatible with RequireJS 2.0.x.
 My aim for this example is to give those familiar with jQuery, but new to RequireJS, something to kick around. It's the result of what I would have found helpful when I first starting working with RequireJS. It differs from James' original by:
 
 * logs out explicit information on module execution, both on the index page and in the browser console
-* organizes and loads scripts in a *bootstrap -> mediator -> modules* fashion
+* organizes and loads scripts in a *bootstrap -> modules* fashion
 * removes jQuery from the global scope once it's loaded
-* externalizes the runtime config so options can be stored in one place
+* externalizes the runtime config (require-config.js) from the build profile (require-profile.js) so options can be stored in one place
 
 View a [live example][gh-pages].
 
