@@ -34,7 +34,6 @@ From your terminal, `cd` into the project's `library/js` directory and execute t
 
 
 
-[dev2.0]:https://github.com/ryanfitzer/Example-RequireJS-jQuery-Project/tree/dev2.0
 [amd]:https://github.com/amdjs/amdjs-api/wiki/AMD
 [requirejs]:https://github.com/jrburke/requirejs
 [original]:https://github.com/jrburke/require-jquery
