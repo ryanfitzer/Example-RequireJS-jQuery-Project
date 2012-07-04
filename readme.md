@@ -30,7 +30,7 @@ I find it easiest if the requirejs package is installed globally. This enables t
 
 From your terminal, `cd` into the project's `library/js` directory and execute the following command:
 
-    r.js -o require-build.js
+    r.js -o require-profile.js
 
 
 
