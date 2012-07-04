@@ -2,7 +2,7 @@
 
 Based on the original [RequireJS + jQuery][original] example by James Burke, the author of [RequireJS][requirejs].
 
-Note: this version is not compatible with RequireJS 2.0. Support for 2.0 is being worked on in the [dev2.0 branch][dev2.0] and will be ready any minute now. I just need to do a little more testing with the r.js 2.0.
+Note: compatible with RequireJS 2.0.x.
 
 ## About ##
 
