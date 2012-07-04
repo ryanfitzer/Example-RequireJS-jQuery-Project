@@ -12,7 +12,7 @@
     
     dir: '../../../requirejs-jquery-build',
     
-    optimize: 'none',
+    optimize: 'none', // So you can see how the files are concatenated.
     
     mainConfigFile: 'require-config.js',
     
