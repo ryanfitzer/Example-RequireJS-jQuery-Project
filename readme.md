@@ -22,15 +22,13 @@ View a [live example][gh-pages].
 ### Requirements
 
 * Install [Node][node] and [NPM][npm]
-* Install the requirejs package: `npm install -g requirejs`
-
-I find it easiest if the requirejs package is installed globally. This enables the `rj.s` command to work in a non-path-specific manner when you open a new shell.
+* Install the requirejs package locally: `npm install requirejs` from the `library/js` directory.
 
 ### Instructions ###
 
 From your terminal, `cd` into the project's `library/js` directory and execute the following command:
 
-    r.js -o require-profile.js
+    ./node_modules/requirejs/bin/r.js -o require-profile.js
 
 
 
