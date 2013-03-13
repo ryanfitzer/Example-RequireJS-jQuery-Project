@@ -12,7 +12,7 @@ define(
     
     ) {
     
-    logger( 'modules/alpha', arguments );
+	logger( 'modules/alpha', arguments );
     
     $.Alpha = function( element, options ) {
 
@@ -40,5 +40,5 @@ define(
 
             new $.Alpha( this, options );
         });
-    } 
+	} 
 });
