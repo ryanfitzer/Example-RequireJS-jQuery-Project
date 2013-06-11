@@ -17,7 +17,7 @@ My aim for this example is to give those familiar with jQuery, but new to Requir
 
   - logs out explicit information on module execution, both on the index page and in the browser console
   - organizes and loads scripts in a *bootstrap -> dependencies* pattern
-  - removes jQuery from the global scope once it's loaded
+  - removes jQuery from the global scope (via `$.noConflict`) once it's loaded 
   - externalizes the runtime configuration (require-config.js) from the build profile (require-profile.js). This is advantageous because your runtime configuration will be dynamically loaded from one place instead of needing to be replicated in each bootstrap file, or in a separate `<script>` tag your HTML page(s).
 
 View a [live example][gh-pages].

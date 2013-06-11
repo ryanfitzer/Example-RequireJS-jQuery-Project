@@ -11,7 +11,7 @@ define(
         logger
     
     ) {
-        logger( 'modules/src/jquery', arguments );
+        logger( 'modules/jquery/noconflict', arguments );
         return $.noConflict( true );
     }
 );
