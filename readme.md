@@ -1,19 +1,13 @@
-# Example RequireJS + jQuery Project #
+# Example RequireJS + jQuery Project ![status][david-dm] #
 
 Based on the original [RequireJS + jQuery][original] example by James Burke, the author of [RequireJS][requirejs].
-
-Currently running:
-
-  - RequireJS 2.1.5
-  - jQuery 2.0.0
-  - r.js 2.1.5 (see "The Build Process" section below)
 
 
 ## About ##
 
 [AMD][amd] and [RequireJS][requirejs] enable a more modular approach to code organization. This approach can present a significant initial learning investment. Using jQuery in your project can complicate things further if you have multiple contributors and/or vendor scripts injecting their own versions of jQuery into the page.
 
-My aim for this example is to give those familiar with jQuery, but new to RequireJS, something to kick around. It's the result of what I would have found helpful when I first starting working with RequireJS. It differs from James' original by:
+The goal of this project is to give those familiar with jQuery, but new to RequireJS, something to kick around. It's the result of what I would have found helpful when I first starting working with RequireJS. It differs from James' original by:
 
   - logs out explicit information on module execution, both on the index page and in the browser console
   - organizes and loads scripts in a *bootstrap -> dependencies* pattern
@@ -33,11 +27,12 @@ View a [live example][gh-pages].
 
 ### Instructions ###
 
-From your terminal, `cd` into the project's `library/js` directory and execute the following command:
+From your terminal, execute the following commands:
 
-    r.js -o require-profile.js
+    $ cd library/js
+    $ r.js -o require-profile.js
 
-Your build will be located as a sibling directory of your project (you can change these settings in require-profile.js).
+Your build will be located as a sibling directory of your project name "requirejs-jquery-build" (you can change these settings in require-profile.js).
 
 **Bonus**: you can update the script tag in index.html to use the [Almond][almond] build. Almond is a much smaller "shim" loader. If your built project doesn't need all the bells and whistles of the RequireJS loader (for example: dynamic script loading), than this a much leaner and performant option.
 
@@ -48,3 +43,4 @@ Your build will be located as a sibling directory of your project (you can chang
 [node]: http://nodejs.org/
 [npm]: https://github.com/isaacs/npm
 [gh-pages]: http://ryanfitzer.github.com/Example-RequireJS-jQuery-Project/
+[david-dm]: https://david-dm.org/ryanfitzer/Example-RequireJS-jQuery-Project.png

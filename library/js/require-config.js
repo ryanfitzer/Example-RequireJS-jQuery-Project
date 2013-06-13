@@ -7,7 +7,7 @@ require.config({
      jQuery at a more logical path.
     */
     paths: {
-        'jquery': 'modules/jquery/jquery-2.0.2.min'
+        'jquery': 'modules/jquery/jquery'
     },
     
     /*

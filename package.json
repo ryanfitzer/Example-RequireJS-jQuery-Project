@@ -1,0 +1,26 @@
+{
+  "name": "Example-RequireJS-jQuery-Project",
+  "version": "2.1.6",
+  "description": "The goal of this project is to give those familiar with jQuery, but new to RequireJS, something to kick around.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanfitzer/Example-RequireJS-jQuery-Project.git"
+  },
+  "keywords": [
+    "RequireJS",
+    "jQuery"
+  ],
+  "author": "Ryan Fitzer",
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "dependencies": {
+    "requirejs": "~2.1.6"
+  },
+  "volo": {
+    "baseDir": "library/js",
+    "dependencies": {
+      "require": "github:jrburke/requirejs/2.1.6",
+      "modules/jquery/jquery": "github:jquery/jquery/2.0.2"
+    }
+  }
+}
