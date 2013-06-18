@@ -1,3 +1,9 @@
+/*
+    Example of wrapping a jQuery plugin in AMD.
+    As an AMD module, the plugin is not supposed 
+    to return a value. Since it's a jQuery plugin,
+    it's added to jQuery's namespace.
+*/
 define(
     
     [

@@ -11,7 +11,9 @@ require( [ 'require-config' ], function() {
 
         function(
             $,
-            logger
+            logger,
+            alpha, // Returns undefined
+            beta // Returns undefined
         ) {
             
             logger( 'home', arguments );
