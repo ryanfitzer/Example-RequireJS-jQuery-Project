@@ -36,8 +36,9 @@
     // `include` array in the `modules` array below.
     findNestedDependencies: true,
     
-    // List the modules that will be optimized. All their immediate
-    // and deep dependencies will be built into the main module's file.
+    // Create an object for each bootstrap module to be optimized. Their immediate
+    // and deep dependencies will be built into the bootstrap's file.
+    // Paths are relative to `baseUrl`.
     modules: [
         
         {   // This is the bootstrap home.js module. It is the one the that is
