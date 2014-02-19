@@ -1,5 +1,6 @@
 /*
- * Build profile
+ * RequireJS build profile
+ * 
  * From your terminal, cd into the directory of this file and execute the following command:
  * 
  *  r.js -o require-profile.js
@@ -15,7 +16,7 @@
     // This path is relative to the `appDir` option.
     baseUrl: 'library/js/',
     
-    // This is where the build will created.
+    // This is where the build will be created.
     // This path is relative to this file (require-profile.js)
     dir: '../../../requirejs-jquery-build',
     

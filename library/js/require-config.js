@@ -1,3 +1,8 @@
+/*
+ * RequireJS runtime config
+ *
+ * See all options: http://requirejs.org/docs/api.html#config
+ */
 require.config({ 
     
     /*
