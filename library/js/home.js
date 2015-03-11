@@ -1,22 +1,25 @@
-require( [ 'require-config' ], function() {
+require( [ 'modules/tree' ], function() {
     
-    require(
+    require( [ 'require-config' ], function() {
+    
+        require(
         
-        [   
-            'jquery',
-            'modules/logger',
-            'modules/alpha',
-            'modules/beta',
-        ],
+            [   
+                'jquery',
+                'modules/logger',
+                'modules/alpha',
+                'modules/beta',
+            ],
 
-        function(
-            $,
-            logger,
-            alpha, // Returns undefined
-            beta // Returns undefined
-        ) {
+            function(
+                $,
+                logger,
+                alpha, // Returns undefined
+                beta // Returns undefined
+            ) {
             
-            logger( 'home', arguments );
-        }
-    );
+                logger( 'home', arguments );
+            }
+        );
+    });
 });
