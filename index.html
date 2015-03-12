@@ -4,22 +4,41 @@
   <meta charset="utf-8">
   <title>Example RequireJS + jQuery Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    html,
+    body {
+      color:#444;
+      font-size:16px;
+      font-family:'Helvetica Neue', 'Helvetica', 'Lucida Grand', 'Arial', sans-serif;
+    }
+    code {
+      color:green;
+      font-size:15px;
+      font-family:'Monaco', 'Menlo', 'Courier', monospace;
+    }
+  </style>
 </head>
 <body>
-  
+
   <h1>Example RequireJS + jQuery Project</h1>
-  
-  <h2>Script Loading Sequence vs. Factory Execution Sequence</h2>
-  
-  <p>See more on <a href="https://github.com/ryanfitzer/Example-RequireJS-jQuery-Project">Github</a>.</p>
-  
-  <p>The factory execution sequence will be logged out below. Open the "network" panel in your inspector to see how the script-loading sequence differs.</p>
-  
-  <ol id="log"></ol>
-  
+
+  <p>This project uses <span id="versions-log"><b>{lib} {version}</b></span>.</p>
+
+  <h2>Factory Execution Sequence</h2>
+
+  <p>The factory execution sequence is logged out below.</p>
+
+  <ol id="modules-log"></ol>
+
+  <h2>Script Loading Sequence</h2>
+
+  <p>Open the "network" panel in your browser's developer tools to see how the script-loading sequence differs.</p>
+
+  <p>You can get more info about this project on <a href="https://github.com/ryanfitzer/Example-RequireJS-jQuery-Project">Github</a>.</p>
+
   <!-- After your project has been built, toggle the commented scripts below to try the Almond build. -->
-  <!-- <script src="library/js/almond.js"></script> -->
-  <script src="library/js/require.js" data-main="library/js/home"></script>
+  <!-- <script src="library/js/vendor/almond.js"></script> -->
+  <script src="library/js/vendor/require.js" data-main="library/js/mediators/home"></script>
 
 </body>
 </html>

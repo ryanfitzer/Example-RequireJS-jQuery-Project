@@ -14,13 +14,14 @@
   "license": "MIT",
   "readmeFilename": "readme.md",
   "dependencies": {
-    "requirejs": "~2.1.6"
+    "requirejs": "~2.1.16"
   },
   "volo": {
     "baseDir": "library/js",
     "dependencies": {
-      "require": "github:jrburke/requirejs/2.1.6",
-      "modules/jquery/jquery": "github:jquery/jquery/2.0.2"
+      "vendor/require": "github:jrburke/requirejs/2.1.16",
+      "vendor/jquery": "github:jquery/jquery/2.1.3",
+      "vendor/almond": "github:jrburke/almond/0.3.1"
     }
   }
 }

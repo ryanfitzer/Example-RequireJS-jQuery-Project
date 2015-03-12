@@ -1,11 +1,16 @@
-define( function() {
-    
-    var log = document.getElementById( 'log' );
-    
-    return function( id, args ) {
-        
-        log.innerHTML += '<li><b>' + id + '</b> factory has executed.</li>';
+define( [], function() {
+
+    var modulesLog = document.getElementById( 'modules-log' );
+
+    function logger( id, args ) {
+
+        var template = '<li><code>{id}</code> factory has executed!</li>';
+
+        modulesLog.innerHTML += template.replace( '{id}', id );
+
         console.log( '\n' + id );
-        console.dir( args );
-    };
+        console.log( 'Factory arguments:', args || [] );
+    }
+
+    return logger;
 });
