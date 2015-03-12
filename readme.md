@@ -22,7 +22,7 @@ View the [live demo][gh-pages].
 ### Requirements
 
   - Install [Node][node] (which includes [npm][npm])
-  - Install the project's dependencies by executing `npm install` in the project's root directory
+  - Install the project's dependencies by executing `npm install` from the project's root directory
 
 
 ### Instructions ###
