@@ -17,7 +17,7 @@ The goal of this project is to give those familiar with jQuery, but new to Requi
 View the [live demo][gh-pages].
 
 
-## Building the Project
+## Using the `r.js` Optimizer
 
 ### Requirements
 
@@ -33,7 +33,7 @@ From the root project directory, execute the following command in your terminal:
 
 Your build will be located as a sibling directory to your project and named "Example-RequireJS-jQuery-Project-build" (you can change this in require-profile.js).
 
-**Bonus**: In the built version, you can update the script tag in index.html to use the [Almond][almond] build script. Almond is a much smaller "shim" loader. If your built project doesn't need dynamic script loading, than this a much leaner and performant option.
+**Bonus**: In the built version, you can update the script tag in "index.html" to use the [Almond][almond] build script. Almond is a much smaller "shim" loader. If your built project doesn't need dynamic script loading, than this could be a much leaner and performant option.
 
 [amd]: https://github.com/amdjs/amdjs-api/wiki/AMD
 [almond]: https://github.com/jrburke/almond
