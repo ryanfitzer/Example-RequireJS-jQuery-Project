@@ -10,14 +10,14 @@ Based on the original [RequireJS + jQuery][original] example by James Burke, the
 The goal of this project is to give those familiar with jQuery, but new to RequireJS, something to kick around. It's what I would have found helpful when I first starting working with RequireJS. It differs from James' original by:
 
   - logs out explicit information when the modules factory executes (on the page and in the browser's console)
-  - organized using a [mediator][[mediator]] pattern
+  - organized using a [mediator][wiki-mediator] pattern
   - removes jQuery from the global scope once it's loaded (via `$.noConflict`)
   - externalizes the runtime configuration (require-config.js) from the build profile (require-profile.js) for easy reuse. This is advantageous because your runtime configuration will be dynamically loaded from one place instead of needing to be replicated in each mediator, or in a separate `<script>` tag your HTML page(s).
 
 View the [live demo][gh-pages].
 
 
-## Using the `r.js` Optimizer
+## Using the [`r.js`][optimizer] Optimizer]
 
 ### Requirements
 
@@ -37,9 +37,10 @@ Your build will be located as a sibling directory to your project and named "Exa
 
 [amd]: https://github.com/amdjs/amdjs-api/wiki/AMD
 [almond]: https://github.com/jrburke/almond
-[requirejs]: https://github.com/jrburke/requirejs
+[requirejs]: http://requirejs.org/
+[optimizer]: http://requirejs.org/docs/optimization.html
 [original]: https://github.com/jrburke/require-jquery
-[mediator]: http://en.wikipedia.org/wiki/Mediator_pattern
+[wiki-mediator]: http://en.wikipedia.org/wiki/Mediator_pattern
 [node]: https://nodejs.org/download/
 [npm]: https://www.npmjs.com/
 [gh-pages]: http://ryanfitzer.github.com/Example-RequireJS-jQuery-Project/
